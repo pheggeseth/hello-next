@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
         {children}
-        This is a change
+        <footer style={{ background: "hotpink" }}>This is a pink footer</footer>
       </body>
     </html>
   );
